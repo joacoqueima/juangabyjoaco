@@ -1,0 +1,96 @@
+@import "reset";
+
+.contenedor{
+	max-width: 1100px; 
+	margin: auto;
+}
+
+.navegador{
+
+	background: black;
+	overflow: auto;
+
+
+		nav{
+
+
+
+			&.menu{
+				float: left;
+				ul{
+					li{
+						border-right: 1px solid white;
+						a{
+							color: white;
+						}
+
+					}
+					
+				}
+			}
+			&.redes{
+				float: right;
+				a{
+					color: yellow;
+				}
+
+			}
+
+		   	ul{
+		   		
+		   		li{
+		   			padding: 10px;
+		   			display: inline-block;
+		   			
+		   			a{
+						font-size: 10px; 
+					    font-weight: 900;
+					    font-family: 'Montserrat', sans-serif;
+					    text-transform: uppercase;
+					    
+					    text-decoration: none;
+
+
+		   			}
+		   		}
+		   	}
+		}
+}
+
+.clase{
+	position:relative;
+	text-align:center;
+	padding:30px;
+}
+
+.imagenes{
+	display:flex;
+	justify-content: center;
+
+}
+
+.texto{
+	background: rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	position: relative;
+	bottom: 75px;
+
+
+	h3{
+		font-family: 'Lora', serif; 
+		font-size: 20px;
+		color:white;
+	}
+	p{
+		color:white;
+	}
+
+	div{
+		background:yellow;
+		display: inline-block;
+	}
+
+	div h4{
+		color:white;
+	}
+}
